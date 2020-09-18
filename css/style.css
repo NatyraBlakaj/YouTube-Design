@@ -1,0 +1,243 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    width: 100%;
+}
+
+#navbar{
+    width: 100%;
+    height: 60px;
+    display: flex;
+    justify-content: space-between;
+}
+
+#logo{
+    width: 16%;
+    padding-top: 18px;
+    display: flex;
+    justify-content: space-between;
+    color: rgb(59, 59, 59);
+}
+
+#logo h3{
+    font-size: 20px;
+    font-family: Arial;
+    padding-top: 5px;
+}
+
+#logo .fa-youtube{
+    margin-left:14%;
+    color: red;
+    font-size: 1.6em;
+    padding-top: 5px;
+}
+
+#logo .fa-bars{
+    padding-left: 13%;
+    font-size: 1.4em;
+    padding-top: 5px;
+}
+
+#search{
+    padding-top: 18px;
+    width:55%;
+    margin-left: 10%;
+    display: flex;
+}
+
+#search #search-input{
+   width:65%;
+   font-size: 16px;
+   padding: 5px;
+   border: 1px solid rgb(194, 195, 196);
+}
+
+#search .fa-search{
+    border: 1px solid rgb(194, 195, 196) ;
+    padding:5px 25px;
+    background-color: #f8f8f8;
+    padding-top: 10px;    
+}
+
+#ikonat{
+    padding-top: 18px;
+    margin-right: 3%;
+}
+
+#ikonat .fa-plus-square{
+    padding-right: 15px;
+    padding-left: 10px;
+    color: rgb(59, 59, 59);
+    font-size: 1.1em;
+}
+
+#ikonat .fa-th{
+    padding-right: 15px;
+    padding-left: 10px;
+    color: rgb(59, 59, 59);
+    font-size: 1.3em;
+}
+
+#ikonat .fa-bell{
+    padding-right: 15px;
+    padding-left: 10px;
+    color: rgb(59, 59, 59);
+    font-size: 1.3em;
+}
+
+#ikonat .fa-user-circle{
+    padding-right: 15px;
+    padding-left: 10px;
+    color: rgb(59, 59, 59);
+    font-size: 1.7em;
+}
+
+/*Lista vertikale*/
+
+#listat{
+    width:16%;
+    padding: 10px;
+    line-height: 2.4;
+}  
+
+ul li {
+    padding-left: 20px;
+    color: rgb(59, 59, 59);
+    list-style: none;
+    cursor:pointer;
+    font-family: Arial;
+} 
+
+ul li:hover{
+    background-color: rgb(234, 236, 240);
+}
+
+ul li .fa-home{
+    padding-right:  20px;
+}
+
+ul li .fa-fire{
+    padding-right:  20px;
+}
+
+ul li .fa-youtube-square{
+    padding-right:  20px;
+}
+
+ul li .fa-photo-video{
+    padding-right:  20px;
+}
+
+ul li .fa-history{
+    padding-right:  20px;
+}
+
+ul li .fa-thumbs-up{
+    padding-right:  20px;
+}
+
+ul li .fa-music{
+    padding-right:  20px;
+}
+
+ul li .fa-volleyball-ball{
+    padding-right:  20px;
+}
+
+ul li .fa-dice-d6{
+    padding-right:  20px;
+}
+
+ul li .fa-youtube-square{
+    padding-right:  20px;
+}
+
+ul li .fa-film{
+    padding-right:  20px;
+}
+
+ul li .fa-tshirt{
+    padding-right:  20px;
+}
+
+ul li .fa-clock{
+    padding-right:  20px;
+}
+
+ul li .fa-satellite-dish{
+    padding-right:  20px;
+}
+
+/*Lista Horizontale*/
+
+#listaHorizontale{
+    float:right;
+    width: 80%;
+    margin-top: 20px;
+    border-top: 1px solid gray;
+    border-bottom: 1px solid gray;
+    padding:15px 0px;
+    
+}
+
+#listaHorizontale ul li {
+    float: left;
+    padding-left: 10px;
+    border:1px solid  rgb(194, 194, 196);
+    border-radius: 15px;
+    margin-left: 1%;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    background-color: #e6e4e4;
+    list-style: none;
+   
+}
+
+#listaHorizontale ul li a{
+    text-decoration: none;
+    padding-left: 10px;
+    padding-right: 10px;
+    color:black;
+    font-family: Arial;
+  
+}
+
+/*Container*/
+
+#container{
+    float:right;
+    width: 83%;
+    height: 600px;
+    background-color:#f9f9f9;
+    margin-top: -552px;
+  
+    
+
+}
+.artikulli{
+    width: 17%;
+    height: 250px;
+    float: left;
+    margin-left: 3%;
+    margin-top: 20px;
+    font-family: Arial;
+    padding-right: 4%;
+}
+
+.artikulli h4{
+    margin-top: 17px;
+    color: crimson;
+    padding-bottom: 5px;
+}
+
+.artikulli p {
+    line-height: 1.4;
+}
+
+.artikulli img{
+    width:240px;
+    height: 130px;
+}

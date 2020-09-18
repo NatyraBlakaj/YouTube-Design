@@ -1,0 +1,56 @@
+
+#navbar{
+    width: 100%;
+    height: 60px;
+    display: flex;
+    flex-direction: column;
+}
+#logo{
+    width: 13%;
+    padding-top: 18px;
+    display: flex;
+    justify-content: space-between;
+    color: rgb(59, 59, 59);
+    margin-left: 34%;
+}
+#logo .fa-bars{
+    display: none;
+}
+#logo h2{
+    font-size: 20px;
+    font-family: Arial;
+    padding-top: 5px;
+}
+
+#logo .fa-youtube{
+    margin-left:14%;
+    color: red;
+    font-size: 1.5em;
+    padding-top: 5px;
+}
+#search{
+    margin-left: 28%;
+    display: flex;
+    padding-top: 30px;
+}
+#search #search-input{
+    width:45%;
+    border: 1px solid rgb(194, 195, 196);
+ }
+ #ikonat{
+    display: none;
+}
+
+/*Lista*/
+
+#listat{
+    width:35%;
+    padding: 10px;
+    line-height: 2.4;
+    margin-left: 28%;
+    margin-top: 45px;
+}
+ul li{
+    list-style: none;
+    font-size: 20px;
+}
